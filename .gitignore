@@ -1,0 +1,19 @@
+.settings
+.classpath
+.project
+bin/
+gen/
+*.dex
+*.apk
+*.ap_
+*.class
+.idea/
+.gradle/
+build/
+local.properties
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+
+*.iml
+
+## Directory-based project format:
+.idea/
