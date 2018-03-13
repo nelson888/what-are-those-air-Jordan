@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Air Jordan Classifier</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+</resources>

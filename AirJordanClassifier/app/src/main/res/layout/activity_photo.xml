@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tambapps.com.airjordanclassifier.PhotoActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_preview_container"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/keep_picture_layout">
+        <Button
+            style="@style/picture_button"
+            android:text="Retry"
+            android:id="@+id/retry_picture"
+            android:onClick="retryPicture"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#f00" />
+        <Button
+            style="@style/picture_button"
+            android:text="ok"
+            android:onClick="keepPicture"
+            android:id="@+id/ok_picture"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_capture"
+        android:text="Capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:onClick="takePicture"
+        />
+</RelativeLayout>
