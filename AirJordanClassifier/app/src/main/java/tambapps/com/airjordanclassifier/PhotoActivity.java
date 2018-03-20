@@ -84,7 +84,7 @@ public class PhotoActivity extends AppCompatActivity implements Camera.PictureCa
             @Override
             public void onSystemUiVisibilityChange(int visibility) {
                 if ((visibility & View.SYSTEM_UI_FLAG_FULLSCREEN) == 0) {
-                    decorView.setSystemUiVisibility(flags );
+                    decorView.setSystemUiVisibility(flags);
                 }
             }
         });

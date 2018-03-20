@@ -1,9 +1,5 @@
 package tambapps.com.airjordanclassifier;
 
-/**
- * Created by fonkoua on 11/03/18.
- */
-
 import android.content.Context;
 import android.hardware.Camera;
 import android.util.Log;
